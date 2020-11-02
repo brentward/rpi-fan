@@ -8,4 +8,5 @@ edition = "2018"
 
 [dependencies]
 gpio-cdev = "0.4"
-
+config = "0.10"
+serde = { version = "1.0", features = ["derive"] }
